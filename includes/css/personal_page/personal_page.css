@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* posts 
+------------------------*/
+section#posts #posts_list{
+	height:355px;
+	margin-bottom:5px;
+}
+
+
+
+/* -profile 
+-----------------------------*/
+#profile{
+	height: 405px;
+	margin-bottom:5px;
+}
+#profile > img{
+	width:225px;
+	height:225px;
+	margin-bottom:5px;
+}
+#profile >div{
+	background-color: #575757;
+padding: 15px 0 20px 15px;
+color: white;
+}
+#profile >div >em{
+	color:#ffff99;
+}
+#profile >section{
+	margin-left: 220px;
+}
+#profile >section >h2{
+	color: #6CA1CE;
+font-weight: bold;
+font-size: 16px;
+margin: 32px 0 10px 0;
+}
+#profile >section >p{
+	color: #666;
+font-size: 15px;
+}
+#profile >section >ul{
+	position: absolute;
+right: 25px;
+bottom: 25px;
+}
+#profile >section >ul >li{
+	min-width: 50px;
+float: left;
+padding-left: 15px;
+white-space: nowrap;
+cursor: pointer;
+}
+#profile >section >ul >li >strong{
+	color: #6CA1CE;
+font-size: 15px;
+margin-right: 3px;
+display:block;
+}
+#profile >section >ul >li >em{
+	color: #B7B7B7;
+font-size: 11px;
+font-weight: bold;
+display:block;
+}
+/* dialog */
+#edit_profile_dialog{
+	background-color:#575757;
+	display:none;
+}
+#edit_profile_dialog >ul{
+	margin-bottom:20px;
+}
+#edit_profile_dialog >ul li{
+	float:left;
+	line-height:3.6em;
+	font-size:14px;
+	width:32%;
+	text-align:center;
+	margin-right:5px;
+	background-color:#ff9900;
+}
+/* basic infomation*/
+#edit_profile_dialog #basic_info input[type=text]{
+	width:340px;
+}
+/* topic areas*/
+#edit_profile_dialog #topic_area ul{
+	margin-top:25px;
+	margin-bottom:30px;
+}
+
+/* account info */
+#edit_profile_dialog #account_info >div{
+	padding-bottom:20px;
+	margin-bottom:20px;
+	border-bottom:1px dotted #666;
+}
+#edit_profile_dialog #account_info input[type=text]{
+	width:340px;
+}
+#edit_profile_dialog #account_info > input[type=text]{
+	display:block;
+	margin-bottom:20px;
+}
+
+/* -following 
+--------------------------*/
+/* dialog */
+#following_dialog{
+	background-color:#575757;
+	display:none;
+}
+#following_dialog .topizens{
+	margin:30px 0 30px 70px;
+}
+#following_dialog .topizens li{
+	float:left;
+	width:200px;
+	margin-right:10px;
+	margin-top:30px;
+	border-left:1px solid #666666;
+}
+#following_dialog button{
+	float:right;
+}

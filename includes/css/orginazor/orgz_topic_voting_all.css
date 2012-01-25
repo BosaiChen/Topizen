@@ -1,0 +1,50 @@
+@CHARSET "UTF-8";
+#page_wrap #orgz_page_header{
+	background-color:#ff9900;
+	margin-bottom:5px;
+}
+#page_wrap #orgz_page_header em{
+	font-size:14px;
+	line-height:3.6em;
+	margin-left:200px;
+	margin-right:100px;
+}
+
+/* -voting topics
+--------------------------*/
+ul.voting-topics-list li{
+	margin-top:5px;
+	min-height:80px;
+}
+ul.voting-topics-list li .info{
+	padding:15px;
+	width:700px;
+	height:60px;
+	background-color:#575757;
+	float:left;
+	margin-right:5px;
+}
+ul.voting-topics-list li .voting-action{
+	height:90px;
+	background-color:#575757;
+	margin-left:740px;
+}
+ul.voting-topics-list li .topic-voting-badget{
+	float:left;
+	margin-left:15px;
+}
+ul.voting-topics-list li .topic-voting-badget em{
+	padding:20px 10px;
+	border:1px solid #fff;
+	color:#ff9900;
+	float:left;
+-moz-border-radius: 5px;
+-webkit-border-radius:5px;
+border-bottom-radius:5px;
+}
+ul.voting-topics-list li .topic-voting-meta{
+	margin-left:80px;
+}
+ul.voting-topics-list li .topic-voting-meta p{
+	margin-bottom:5px;
+}

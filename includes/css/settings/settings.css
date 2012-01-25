@@ -1,0 +1,92 @@
+/* tab */
+#main_tab{
+	margin-left:30%;
+width: 600px;
+border: none;
+}
+.tab-content{
+	width: 650px;
+	min-height:500px;
+border: 1px solid #B7B7B7;
+color: #999;
+margin-top: -1px;
+margin-left:20%;
+}
+
+/* account */
+#account{
+	margin-top: 80px;
+margin-left: 150px;
+}
+#account label,#password_tab label{
+	font-weight: bold;
+margin: 0 0 5px;
+font-size: 13px;
+display:block;
+}
+#account #full_name,#password_tab input{
+	margin-bottom:18px;
+	width: 310px;
+	font: 14px/14px Helvetica, Arial, Sans-serif;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+-o-border-radius: 3px;
+border-radius: 3px;
+background: white;
+border: 1px solid #CCC;
+padding: 7px 5px;
+color: #777;
+}
+#account #self_intro{
+width: 310px;
+overflow: hidden;
+font: 14px/14px Helvetica, Arial, Sans-serif;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+-o-border-radius: 3px;
+border-radius: 3px;
+background-color: white;
+border: 1px solid #CCC;
+padding: 7px 5px;
+color: #777;
+resize: vertical;
+}
+#account #domain{
+	width: 120px;
+}
+#account button{
+	margin-left: 255px;
+margin-top: 20px;
+}
+
+/* password */
+#password_tab{
+	margin-top: 80px;
+margin-left: 150px;
+}
+
+/* picture */
+#picture_tab{
+	position:relative;
+	margin-left: 85px;
+margin-top: 50px;
+position: relative;
+}
+#picture_tab > img{
+	float:left;
+	width: 280px;
+height: 280px;
+border: 1px solid #999;
+position: relative;
+}
+#picture_tab #ep_img_upload_btn{
+	clear:both;
+}
+#user_img_save_btn {
+	margin-left: 375px;
+}
+
+#password_save_btn{
+	margin-left: 255px;
+margin-top: 20px;
+}

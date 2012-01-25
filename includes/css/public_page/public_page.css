@@ -1,0 +1,131 @@
+@charset "UTF-8";
+nav.top-nav a{
+float:left;
+}
+nav.top-nav a#feature_topic_tab{
+	width:555px;
+	margin-right:5px;
+	float:left;
+}
+nav.top-nav a#profile_account_tab{
+	width:400px;
+}
+/*		-feature topics
+-----------------------*/
+#feature_topics{
+	margin-top:5px;
+	margin-bottom:5px;
+}
+#feature_topics #top_topic{
+	height:340px;
+	width:730px;
+	margin-right:5px;
+	float:left;
+	position:relative;
+}
+#feature_topics #top_topic > img{
+	height:100%;
+	width:100%;
+	position:absolute;
+}
+#feature_topics #top_topic > div{
+	background-color:#575757;
+	padding:20px 0 20px 30px;
+	width:700px;
+	position:absolute;
+	opacity:0.6;
+}
+
+#feature_topics aside{
+	float:right;
+}
+#feature_topics aside ul li{
+	width:225px;
+	height:110px;
+	margin-bottom:5px;
+	position:relative;
+}
+#feature_topics aside ul li > img{
+	width:100%;
+	height:100%;
+	position:absolute;
+}
+#feature_topics aside ul li > div{
+	background-color:#575757;
+	padding:15px 0 15px 10px;
+	width:210px;
+	position:absolute;
+	opacity:0.6;
+}
+
+/* -upcoming topics
+--------------------------*/
+ul.voting-topics-list li{
+	margin-top:5px;
+	width:730px;
+	padding:15px 0;
+	background-color:#575757;
+	min-height:80px;
+}
+ul.voting-topics-list li .topic-voting-badget{
+	float:left;
+	margin-left:15px;
+}
+ul.voting-topics-list li .topic-voting-badget em{
+	border:1px solid #fff;
+	color:#ff9900;
+-moz-border-radius: 5px;
+-webkit-border-radius:5px;
+border-bottom-radius:5px;
+width: 50px;
+line-height: 4em;
+text-align: center;
+overflow: hidden;
+display:block;
+margin-bottom:5px;
+}
+ul.voting-topics-list li .topic-voting-meta{
+	margin-left:80px;
+	width:640px;
+}
+ul.voting-topics-list li .topic-voting-meta p{
+	margin-bottom:5px;
+}
+/* -famous topizen section
+---------------------------*/
+section#famous_topizen{
+	float:right;
+	width:225px;
+}
+
+
+/* -add my topics
+-------------------------------*/
+#add_topic_dialog{
+	background-color:#575757;
+	display:none;
+}
+#add_topic_dialog .dialog-section-header{
+	float:left;
+}
+#add_topic_dialog h4{
+	margin-top:20px;
+	margin-left:30px;
+	float:left;
+}
+#add_topic_dialog input[type=text],#add_topic_dialog textarea{
+	clear:both;
+	margin-top:20px;
+	width:820px;
+	margin-left:20px;
+}
+#add_topic_dialog .topic-domains{
+	clear:both;
+	margin-top:20px;
+	margin-left:20px;
+	float:left;
+}
+#add_topic_dialog button{
+	clear: both;
+float: right;
+}

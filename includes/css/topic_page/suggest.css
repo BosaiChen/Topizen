@@ -1,0 +1,34 @@
+@CHARSET "UTF-8";
+#suggest_editor{
+	margin:100px 0 100px 200px;
+}
+#suggest_editor input{
+margin-bottom: 18px;
+width: 310px;
+font: 14px/14px Helvetica, Arial, Sans-serif;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+-o-border-radius: 3px;
+border-radius: 3px;
+background: white;
+border: 1px solid #CCC;
+padding: 7px 5px;
+color: #777;
+}
+#suggest_editor textarea{
+	font: 13px/14px Helvetica, Arial, Sans-serif;
+border: 1px solid #CCC;
+padding: 7px 5px;
+color: #777;
+resize: vertical;
+width: 500px;
+}
+#suggest_editor label{
+	font-weight: bold;
+margin: 0 0 5px;
+font-size: 13px;
+display: block;
+}
+#suggest_editor #suggest_btn{
+	display:block;
+}

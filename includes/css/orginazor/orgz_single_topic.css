@@ -1,0 +1,28 @@
+@CHARSET "UTF-8";
+#page_wrap{
+	background-color:#575757;
+}
+/* basic info */
+#topic_title{
+	width:560px;
+	margin-top:30px;
+	margin-left:50px;
+}
+#topic_desc{
+	margin-top:20px;
+	margin-left:50px;
+	width:850px;
+}
+
+#page_wrap > section > h4{
+	background-color:#ff9900;
+	width:225px;
+	text-align:center;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+#page_wrap > section > input[type=text] {
+	width:500px;
+	margin-left:50px;
+}

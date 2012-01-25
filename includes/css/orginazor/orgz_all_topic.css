@@ -1,0 +1,47 @@
+@CHARSET "UTF-8";
+/* -nav 
+----------------------*/
+#page_wrap nav{
+	background-color:#ff9900;
+	margin-bottom:5px;
+}
+#page_wrap nav em{
+	font-size:14px;
+	line-height:3.6em;
+	margin-left:200px;
+	margin-right:100px;
+}
+#page_wrap nav a{
+	margin-right:20px;
+	color:#666;
+}
+
+/* -topic search
+-------------------------*/
+#topic_search{
+	background-color:#575757;
+	margin-bottom:5px;
+}
+#topic_search input[type=text]{
+	margin:5px 20px 5px 10px;
+	width:400px;
+}
+
+/* -topic all list
+-----------------------*/
+ul.orgz-topic-all li{
+	margin-bottom:5px;
+}
+ul.orgz-topic-all li .basic-info{
+	float:left;
+	width:700px;
+	height:60px;
+	background-color:#575757;
+	padding:15px;
+}
+ul.orgz-topic-all li .extended-info{
+	width:200px;
+	height:90px;
+	background-color:#575757;
+	margin-left: 740px;
+}
